@@ -15,12 +15,11 @@
     echo "<h1>Hello, World!</h1>\n";
     ?>
 
-    <?php
-    $txt = "Hello world!";
-    $x = 5;
-    $y = 10.5;
-    echo $X;
-    ?>
+    <form action="welcome.php" method="post">
+    Name: <input type="text" name="name"><br>
+    E-mail: <input type="text" name="email"><br>
+    <input type="submit">
+    </form>
 
   </body>
   
