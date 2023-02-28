@@ -4,7 +4,6 @@
     <link rel="stylesheet" href="styles.css">
     <title>Page Title</title>
   </head>
-
   <body>
     
     <?php
